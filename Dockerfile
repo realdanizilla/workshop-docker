@@ -12,7 +12,7 @@ COPY . /src
 # mude para a pasta src para realizar os trabalhos
 WORKDIR /src
 
-# instale dependencias do projeto
+# instale dependencias e bibliotecas do projeto
 RUN poetry install
 
 # abra uma porta para permitir conexao para porta convencionada para streamlit
